@@ -16,10 +16,10 @@ const Login = ({ setUser }) => {
   return (
     <section className='section'>
       <form className='form' onSubmit={handleSubmit}>
-        <h5>login</h5>
+        <h5>Login</h5>
         <div className='form-row'>
           <label htmlFor='name' className='form-label'>
-            name
+            Name
           </label>
           <input
             type='text'
@@ -31,7 +31,7 @@ const Login = ({ setUser }) => {
         </div>
         <div className='form-row'>
           <label htmlFor='email' className='form-label'>
-            email
+            Email
           </label>
           <input
             type='email'
@@ -42,7 +42,7 @@ const Login = ({ setUser }) => {
           />
         </div>
         <button type='submit' className='btn btn-block'>
-          login
+          Login
         </button>
       </form>
     </section>
