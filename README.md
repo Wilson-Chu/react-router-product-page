@@ -1,1 +1,2 @@
-React Router sample page for a product showcase. Uses nested routes and useNavigate hook, along with simple login and ProtectedRoute components.
+React Router sample page for a product showcase (in this case, chairs). Uses nested routes and useNavigate hooks, along with simple login and ProtectedRoute components.
+Can easily be expanded to showcase any other types of products.
